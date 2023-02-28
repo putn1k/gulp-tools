@@ -1,0 +1,31 @@
+{
+  "name": "gulp-tools",
+  "version": "1.0.0",
+  "description": "Инструменты для работы с файлами",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "start": "gulp",
+    "clean": "gulp clean",
+    "clearall": "gulp clearall",
+    "html": "gulp html",
+    "css": "gulp css",
+    "js": "gulp js",
+    "image": "gulp image",
+    "webp": "gulp webp"
+  },
+  "author": "putn1k",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "7.0.0",
+    "gulp": "4.0.2",
+    "gulp-clean-css": "4.3.0",
+    "gulp-htmlmin": "5.0.1",
+    "gulp-libsquoosh": "1.1.2",
+    "gulp-svgmin": "4.1.0",
+    "gulp-terser": "2.1.0"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
+  }
+}
